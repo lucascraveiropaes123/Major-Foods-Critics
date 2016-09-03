@@ -136,23 +136,27 @@ filter: alpha(opacity=95) !important;
 
 /* Button */ 
 .mybutton_standard {
+	font-size: 20px !important;
 	border: 1px solid white;
 	color: white;
 }
  
 .mybutton_standard:hover{
+	font-size: 20px !important;
 	border: 1px solid white;
 	color: #958900 !important;
 	background-color: white;
 }
 
 .mybutton_cyano{
+	font-size: 20px !important;
 	border: 1px solid #958900;
 	color: #fff;
 	background-color: #958900;
 }
 
 .mybutton_cyano:hover{
+	font-size: 20px !important;
 	border: 1px solid white;
 	color: #958900 !important;
 	background-color: white;
@@ -252,9 +256,13 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: black;
-	background: url(../img/intro/Sanduba.png) no-repeat center center;
+	background: url(../img/intro/SandubaFaded.png) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	
+	
+  	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+	
 }
 
 .intro-message {
@@ -1257,4 +1265,8 @@ p.copyright {
 		display: none;
 	}
 
+}
+
+.images {
+	text-align: center !important;
 }
